@@ -1,0 +1,42 @@
+@startuml
+actor Cliente
+participant "Sistema AAVV" as AAVV
+participant "Carrito" as Carrito
+participant "Sistema Seguros" as Seguros
+participant "Pasarela Pago" as Pago
+database "Base Datos" as BD
+
+Cliente -> AAVV: Consultar productos
+AAVV -> BD: Recuperar productos
+BD --> AAVV: Lista productos
+AAVV --> Cliente: Mostrar productos
+
+Cliente -> AAVV: Añadir producto al carrito
+AAVV -> Carrito: Añadir producto
+Carrito -> BD: Verificar disponibilidad
+BD --> Carrito: Confirmación disponibilidad
+Carrito --> AAVV: Producto añadido
+AAVV --> Cliente: Confirmación
+
+Cliente -> AAVV: Confirmar carrito
+AAVV -> Carrito: Calcular total
+Carrito --> AAVV: Total calculado
+AAVV -> Seguros: Solicitar presupuestos (datos viaje)
+Seguros --> AAVV: Opciones de seguro
+AAVV --> Cliente: Mostrar opciones seguro
+
+Cliente -> AAVV: Seleccionar seguro
+AAVV -> Carrito: Añadir seguro
+Carrito --> AAVV: Confirmación
+AAVV -> Pago: Procesar pago (total, datos cliente)
+Pago --> AAVV: Confirmación pago
+AAVV -> BD: Crear expediente
+BD --> AAVV: Expediente creado
+AAVV --> Cliente: Confirmación reserva
+
+alt Pago fallido
+  AAVV -> Carrito: Cancelar reservas
+  AAVV -> Seguros: Cancelar seguro
+  AAVV --> Cliente: Notificar error
+end
+@enduml
