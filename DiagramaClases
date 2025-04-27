@@ -1,0 +1,111 @@
+@startuml
+class Cliente {
+  -nombreCompleto: String
+  -direccionFacturacion: String
+  -telefono: String
+  -edad: int
+  -dniPasaporte: String
+  -nacionalidad: String
+  +registrarse()
+  +consultarProductos()
+}
+
+class Expediente {
+  -numero: String
+  -fechaReserva: Date
+  -precioTotal: double
+  -estado: EstadoExpediente
+  +confirmar()
+  +cancelar()
+  +marcarConsumido()
+  +reclamar()
+}
+
+enum EstadoExpediente {
+  CONFIRMADA
+  CANCELADA
+  CONSUMIDA
+  RECLAMADA
+}
+
+class ProductoTuristico {
+  <<abstract>>
+  -precio: double
+  +calcularPrecio()
+}
+
+class Vuelo {
+  -lineaAerea: String
+  -fechaHoraSalida: DateTime
+  -aeropuertoSalida: String
+  -fechaHoraLlegada: DateTime
+  -aeropuertoLlegada: String
+  -numeroAsiento: String
+}
+
+class Hotel {
+  -nombre: String
+  -categoria: int
+  -direccion: String
+  -fechaEntrada: Date
+  -fechaSalida: Date
+  -tipoAlojamiento: String
+}
+
+class Traslado {
+  -fecha: Date
+  -hora: Time
+  -lugarRecogida: String
+  -lugarDestino: String
+  -tipo: TipoTraslado
+}
+
+enum TipoTraslado {
+  PRIVADO
+  COMPARTIDO
+}
+
+class Seguro {
+  -compania: String
+  -tipoPoliza: String
+}
+
+class Actividad {
+  -fechaHora: DateTime
+  -ubicacion: String
+  -numeroAsiento: String
+  -edadMinima: int
+}
+
+class Carrito {
+  -productos: List<ProductoTuristico>
+  +añadirProducto()
+  +eliminarProducto()
+  +confirmarDisponibilidad()
+  +calcularTotal()
+}
+
+class SistemaSegurosExterno {
+  +solicitarPresupuestos()
+}
+
+class PasarelaPago {
+  +procesarPago()
+}
+
+Cliente "1" --> "*" Expediente
+Expediente "1" --> "*" ProductoTuristico
+ProductoTuristico <|-- Vuelo
+ProductoTuristico <|-- Hotel
+ProductoTuristico <|-- Traslado
+ProductoTuristico <|-- Seguro
+ProductoTuristico <|-- Actividad
+Expediente --> EstadoExpediente
+Traslado --> TipoTraslado
+Cliente --> Carrito
+Carrito --> ProductoTuristico
+AAVV --> SistemaSegurosExterno
+AAVV --> PasarelaPago
+
+note right of ProductoTuristico : Seguro no está en el sistema,\nse obtiene de un tercero
+@enduml
