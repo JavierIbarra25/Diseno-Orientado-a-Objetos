@@ -26,19 +26,19 @@
           <mxGeometry x="50" y="130" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-2" value="Sistema AAVV" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="314" y="280" width="100" height="710" as="geometry" />
+          <mxGeometry x="314" y="280" width="100" height="850" as="geometry" />
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-3" value="Cliente" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="40" y="280" width="100" height="690" as="geometry" />
+          <mxGeometry x="40" y="280" width="100" height="840" as="geometry" />
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-4" value="SistemaSeguroExterno" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="720" y="280" width="150" height="780" as="geometry" />
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-5" value="BaseDeDatos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="610" y="280" width="100" height="770" as="geometry" />
+          <mxGeometry x="610" y="280" width="100" height="850" as="geometry" />
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-6" value="Carrito" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="520" y="280" width="60" height="760" as="geometry" />
+          <mxGeometry x="520" y="280" width="60" height="860" as="geometry" />
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-7" value="PasarelaPago" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="850" y="280" width="100" height="790" as="geometry" />
@@ -106,6 +106,13 @@
           <mxGeometry x="0.0042" width="80" relative="1" as="geometry">
             <mxPoint x="89.5" y="819.6" as="sourcePoint" />
             <mxPoint x="290" y="819.6" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-22" value="Agregar productos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="5mpojZy3bhpFWDZei2qy-6">
+          <mxGeometry x="-0.0718" width="80" relative="1" as="geometry">
+            <mxPoint x="363.83333333333326" y="850" as="sourcePoint" />
+            <mxPoint x="660" y="850" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
