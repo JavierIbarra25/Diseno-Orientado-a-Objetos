@@ -1,26 +1,70 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Página-1" id="8IQbDquWTTxxeq2xW0NO">
-    <mxGraphModel dx="784" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="818" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_1zvdoc51O3YbD81j2iy-1" value="Sistema AAVV" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="150" y="120" width="100" height="50" as="geometry" />
+        <mxCell id="_1zvdoc51O3YbD81j2iy-1" value="Sistema AAVV" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="150" y="130" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_1zvdoc51O3YbD81j2iy-2" value="Carrito" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="210" width="60" height="50" as="geometry" />
+        <mxCell id="_1zvdoc51O3YbD81j2iy-2" value="Carrito" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="290" y="130" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_1zvdoc51O3YbD81j2iy-3" value="BaseDeDatos" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="180" y="310" width="90" height="50" as="geometry" />
+        <mxCell id="_1zvdoc51O3YbD81j2iy-3" value="BaseDeDatos" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="390" y="130" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_1zvdoc51O3YbD81j2iy-4" value="SistemaSeguroExterno" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="170" y="400" width="150" height="50" as="geometry" />
+        <mxCell id="_1zvdoc51O3YbD81j2iy-4" value="SistemaSeguroExterno" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="130" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_1zvdoc51O3YbD81j2iy-5" value="PasarelaPago" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="460" y="280" width="90" height="50" as="geometry" />
+        <mxCell id="_1zvdoc51O3YbD81j2iy-5" value="PasarelaPago" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="710" y="130" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_1zvdoc51O3YbD81j2iy-6" value="Expediente" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="470" y="170" width="80" height="50" as="geometry" />
+        <mxCell id="_1zvdoc51O3YbD81j2iy-6" value="Expediente" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="840" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-1" value="Cliente" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-2" value="Sistema AAVV" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-3" value="Cliente" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-4" value="SistemaSeguroExterno" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-5" value="BaseDeDatos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="530" y="280" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-6" value="Carrito" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="410" y="280" width="60" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-7" value="PasarelaPago" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="850" y="280" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-8" value="Expediente" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="990" y="280" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-9" value="Login(Si no esta registrado)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="5mpojZy3bhpFWDZei2qy-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="89.5" y="390" as="sourcePoint" />
+            <mxPoint x="229.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-10" value="Verificar credenciales" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="5mpojZy3bhpFWDZei2qy-5">
+          <mxGeometry x="-0.5855" width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="420" as="sourcePoint" />
+            <mxPoint x="520" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-11" value="Datos cliente" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.5866" y="-10" width="160" relative="1" as="geometry">
+            <mxPoint x="579.92" y="480" as="sourcePoint" />
+            <mxPoint x="290.08666666666653" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
