@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Página-1" id="8IQbDquWTTxxeq2xW0NO">
-    <mxGraphModel dx="588" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="706" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,14 +54,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-10" value="Verificar credenciales" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.526;exitY=0.194;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5mpojZy3bhpFWDZei2qy-2" target="5mpojZy3bhpFWDZei2qy-5">
-          <mxGeometry x="-0.4988" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.4305" width="80" relative="1" as="geometry">
             <mxPoint x="390.00000000000006" y="420" as="sourcePoint" />
             <mxPoint x="605.8" y="420" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-11" value="Datos cliente" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="5mpojZy3bhpFWDZei2qy-5">
-          <mxGeometry x="0.5866" y="-10" width="160" relative="1" as="geometry">
+          <mxGeometry x="0.5374" y="-10" width="160" relative="1" as="geometry">
             <mxPoint x="579.05" y="460.00000000000006" as="sourcePoint" />
             <mxPoint x="360.95000000000005" y="460.00000000000006" as="targetPoint" />
             <mxPoint as="offset" />
@@ -82,14 +82,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-15" value="Obtener productos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="5mpojZy3bhpFWDZei2qy-5">
-          <mxGeometry x="-0.4841" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.4165" width="80" relative="1" as="geometry">
             <mxPoint x="363.70000000000005" y="585" as="sourcePoint" />
             <mxPoint x="580" y="585" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5mpojZy3bhpFWDZei2qy-16" value="LIsta productos disponibles" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="5mpojZy3bhpFWDZei2qy-5">
-          <mxGeometry x="0.3489" y="-10" width="160" relative="1" as="geometry">
+          <mxGeometry x="0.2813" y="-10" width="160" relative="1" as="geometry">
             <mxPoint x="599.5" y="640" as="sourcePoint" />
             <mxPoint x="363.70000000000005" y="640" as="targetPoint" />
             <mxPoint as="offset" />
