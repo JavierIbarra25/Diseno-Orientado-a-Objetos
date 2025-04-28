@@ -419,6 +419,14 @@
             <mxPoint x="-67" y="102" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-92" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;El carrito gestiona pre-reservas:&lt;br/&gt;  - Bloquea productos al añadirlos&lt;br/&gt;  - Libera productos al eliminarlos&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="571" width="330" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="5mpojZy3bhpFWDZei2qy-93" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="5mpojZy3bhpFWDZei2qy-92">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
