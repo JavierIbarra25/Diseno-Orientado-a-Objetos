@@ -112,8 +112,8 @@
         <mxCell id="i-lt0F7ig2W6C5ULB9Se-27" value="&lt;div&gt;&amp;nbsp; Los seguros vienen de un&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sistema&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; externo, no se&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;almacenan en nuestra&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; BD&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="1">
           <mxGeometry x="70" y="980" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="i-lt0F7ig2W6C5ULB9Se-28" value="&lt;div&gt;&lt;b&gt;&amp;nbsp; Pre-reserva:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Bloquea productos&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; temporalmente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(máximo 72 horas)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; Se convierte en Expediente&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;al confirmar&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="1">
-          <mxGeometry x="590" y="990" width="240" height="90" as="geometry" />
+        <mxCell id="i-lt0F7ig2W6C5ULB9Se-28" value="&lt;div&gt;&lt;b&gt;&amp;nbsp; Pre-reserva:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Bloquea productos&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; temporalmente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(máximo 72 horas)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; Se convierte en Expediente&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;al confirmar&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=1;base=80;size=30;position=0.92;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="i-lt0F7ig2W6C5ULB9Se-29" value="Tiene" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.539;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TBLlkOP_qlh_QUMRTp9g-2" target="oR6sBdIMDXWxFU_tY8Ch-6">
           <mxGeometry x="0.3714" y="3" relative="1" as="geometry">
@@ -129,6 +129,23 @@
         </mxCell>
         <mxCell id="i-lt0F7ig2W6C5ULB9Se-31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;*&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="960" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="i-lt0F7ig2W6C5ULB9Se-32" value="Gestiona" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TBLlkOP_qlh_QUMRTp9g-2" target="oR6sBdIMDXWxFU_tY8Ch-1">
+          <mxGeometry x="0.2308" y="-55" relative="1" as="geometry">
+            <mxPoint x="790" y="163" as="sourcePoint" />
+            <mxPoint x="967" y="298" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-lt0F7ig2W6C5ULB9Se-33" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="i-lt0F7ig2W6C5ULB9Se-32">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-lt0F7ig2W6C5ULB9Se-36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="590" y="173" as="geometry">
+            <mxPoint x="-158" y="78" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
