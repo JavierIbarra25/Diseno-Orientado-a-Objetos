@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="Página-1" id="KtqO_DASaNcsyG8CtPEL">
-    <mxGraphModel dx="2033" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2541" dy="1420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -250,6 +250,38 @@
         </mxCell>
         <mxCell id="8dpSMI5fHMT5bJb340pZ-22" value="Tiene" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="920" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8dpSMI5fHMT5bJb340pZ-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.511;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oR6sBdIMDXWxFU_tY8Ch-9" target="i-lt0F7ig2W6C5ULB9Se-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="600" as="sourcePoint" />
+            <mxPoint x="1100" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dpSMI5fHMT5bJb340pZ-24" value="Usa para pago" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8dpSMI5fHMT5bJb340pZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8dpSMI5fHMT5bJb340pZ-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oR6sBdIMDXWxFU_tY8Ch-9" target="i-lt0F7ig2W6C5ULB9Se-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="962" y="462" as="sourcePoint" />
+            <mxPoint x="990" y="595" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1360" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dpSMI5fHMT5bJb340pZ-26" value="Tiene" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="8dpSMI5fHMT5bJb340pZ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dpSMI5fHMT5bJb340pZ-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.756;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oR6sBdIMDXWxFU_tY8Ch-9" target="i-lt0F7ig2W6C5ULB9Se-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="972" y="472" as="sourcePoint" />
+            <mxPoint x="1000" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dpSMI5fHMT5bJb340pZ-28" value="Consulta" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8dpSMI5fHMT5bJb340pZ-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
